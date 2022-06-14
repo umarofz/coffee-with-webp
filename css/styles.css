@@ -2174,9 +2174,7 @@ img {
   width: 540px;
 }
 
-.quality__right {
-  background-image: url(./../images/quality__bgi.png);
-  background-repeat: no-repeat;
+.quality__img {
   width: 445px;
   height: 474px;
   position: absolute;
@@ -2212,9 +2210,7 @@ img {
     width: 540px;
     margin-left: 30px;
   }
-  .quality__right {
-    background-image: url(./../../images/quality__bgi__tablet.png);
-    background-repeat: no-repeat;
+  .quality__img {
     width: 573px;
     height: 320px;
     position: absolute;
@@ -2252,9 +2248,7 @@ img {
     width: 540px;
     margin-left: 5px;
   }
-  .quality__right {
-    background-image: url(./../../images/quality__bgi__tablet.png);
-    background-repeat: no-repeat;
+  .quality__img {
     width: 573px;
     height: 320px;
     position: absolute;
@@ -2292,21 +2286,13 @@ img {
     opacity: 0.8;
     width: 279px;
   }
-  .quality__right {
-    background-image: url(./../../images/quality__bgi__mobile.png);
-    background-repeat: no-repeat;
+  .quality__img {
     width: 279px;
     height: 156px;
     position: absolute;
     top: calc(-15%);
     left: calc(100% - 307px);
     border-radius: 8px;
-  }
-}
-
-@media only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min--moz-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2), only screen and (min-resolution: 192dpi), only screen and (min-resolution: 2dppx) {
-  __right {
-    background-image: url("./../../images/quality__bgi@2x.png");
   }
 }
 
