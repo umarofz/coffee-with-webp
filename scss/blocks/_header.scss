@@ -294,10 +294,12 @@
     }
 
     &__btn-img {
+      margin-left: -730px;
     }
 
     &__btn-img-cross {
       display: none;
+      margin-left: -730px;
     }
 
     &__logo {
@@ -311,6 +313,7 @@
       top: 100%;
       left: 0;
       right: 0;
+      width: 375px;
       height: calc(100vh - 100%);
       background: linear-gradient(0deg, rgba(254, 252, 247, 0.504981) 0%, #FEFCF7 55.94%);
       align-items: flex-start;
